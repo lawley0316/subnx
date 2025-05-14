@@ -82,6 +82,7 @@ std::string Node::lineage(bool principal) const {
         if (principal && (! node->is_principal())) {
             continue;
         }
+        
         if (lineage.empty()) {
             lineage = node->str(principal);
         } else {
