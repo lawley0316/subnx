@@ -1,5 +1,7 @@
 # subnx: one-click extraction of nt/nr sub-databases
 
+![subnx.gif](subnx.gif)
+
 ## Goal
 
 A few days ago, a client approached me wanting to create a sequence database for the Colletotrichum genus. After some research, I found that there aren't many good tools available for this purpose. While [taxonkit](https://github.com/shenwei356/taxonkit) can accomplish this, it is a general-purpose tool with many features, making it overly cumbersome for the specific task of constructing nt/nr sub-databases.
